@@ -8,6 +8,7 @@ import javafx.scene.control.MenuBar;
 import javafx.scene.control.MenuItem;
 import javafx.scene.image.Image;
 import javafx.scene.layout.BorderPane;
+import javafx.scene.layout.TilePane;
 import javafx.stage.Stage;
 
 public class StartPage extends Application {
@@ -37,7 +38,8 @@ public class StartPage extends Application {
         menuItem2.setOnAction(click -> borderPane.setCenter(seite2));
 
         Scene scene = new Scene(borderPane, 300, 300);
-        primaryStage.getIcons().add(new Image("images/labchef.png"));
+        primaryStage.getIcons().add(new Image("images/lab_chef.png"));
+        primaryStage.setTitle("Lab_Chef");
         primaryStage.setScene(scene);
         primaryStage.show();
     }

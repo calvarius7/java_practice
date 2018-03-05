@@ -1,0 +1,13 @@
+<application>
+  <component name="GetterTemplates">
+    <option name="defaultTempalteName" value="IntelliJ Default" />
+    <option name="templates">
+      <list>
+        <TemplateResource>
+          <option name="fileName" value="JavaDocTemplate" />
+          <option name="template" value="/**&#10;*&#10;* @author Lucas Immoor&#10;* @return value of $field.name&#10;*/&#10;#if($field.modifierStatic)&#10;static ##&#10;#end&#10;$field.type ##&#10;#set($name = $StringUtil.capitalizeWithJavaBeanConvention($StringUtil.sanitizeJavaIdentifier($helper.getPropertyName($field, $project))))&#10;#if ($field.boolean &amp;&amp; $field.primitive)&#10;is##&#10;#else&#10;get##&#10;#end&#10;${name}() {&#10;return $field.name;&#10;}" />
+        </TemplateResource>
+      </list>
+    </option>
+  </component>
+</application>

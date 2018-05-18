@@ -1,0 +1,16 @@
+<application>
+  <component name="libraryTable">
+    <library name="markerclusterer" type="javaScript">
+      <properties>
+        <sourceFilesUrls>
+          <item url="file://$APPLICATION_CONFIG_DIR$/javascript/extLibs/http_developers.google.com_maps_documentation_javascript_examples_markerclusterer_markerclusterer.js" />
+        </sourceFilesUrls>
+      </properties>
+      <CLASSES>
+        <root url="file://$APPLICATION_CONFIG_DIR$/javascript/extLibs/http_developers.google.com_maps_documentation_javascript_examples_markerclusterer_markerclusterer.js" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES />
+    </library>
+  </component>
+</application>

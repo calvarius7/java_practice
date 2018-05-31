@@ -1,9 +1,9 @@
 <application>
   <component name="FindSettings">
-    <option name="customScope" value="Directory '...\src [Mobil]'" />
-    <option name="defaultScopeName" value="Directory '...\src [Mobil]'" />
+    <option name="customScope" value="File '...\web\carDetails.jsp [Mobil]'" />
+    <option name="defaultScopeName" value="File '...\web\carDetails.jsp [Mobil]'" />
     <option name="regularExpressions" value="true" />
     <option name="REGULAR_EXPRESSIONS" value="true" />
-    <option name="SEARCH_SCOPE" value="Directory '...\src [Mobil]'" />
+    <option name="SEARCH_SCOPE" value="File '...\web\carDetails.jsp [Mobil]'" />
   </component>
 </application>

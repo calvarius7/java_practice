@@ -1,9 +1,9 @@
 <application>
   <component name="FindSettings">
-    <option name="customScope" value="Directory '...\src\controller\filter [Mobil]'" />
-    <option name="defaultScopeName" value="Directory '...\src\controller\filter [Mobil]'" />
+    <option name="customScope" value="selection" />
+    <option name="defaultScopeName" value="selection" />
     <option name="regularExpressions" value="true" />
     <option name="REGULAR_EXPRESSIONS" value="true" />
-    <option name="SEARCH_SCOPE" value="Directory '...\src\controller\filter [Mobil]'" />
+    <option name="SEARCH_SCOPE" value="selection" />
   </component>
 </application>
